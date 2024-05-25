@@ -16,4 +16,3 @@ A vscode plugin to manipulate `js/ts` comment.
 
 - [ts-comment-case](https://github.com/moecasts/ts-comment-case)
 - [nvim-ts-comment-case](https://github.com/moecasts/nvim-ts-comment-case)
-- [vscode-ts-comment-case](https://github.com/moecasts/vscode-ts-comment-case)

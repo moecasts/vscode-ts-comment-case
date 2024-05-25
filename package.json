@@ -71,6 +71,6 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "ts-comment-case": "^0.0.2"
+    "ts-comment-case": "^0.0.3"
   }
 }
