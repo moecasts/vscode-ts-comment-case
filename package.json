@@ -2,9 +2,9 @@
   "name": "vscode-ts-comment-case",
   "displayName": "vscode-ts-comment-case",
   "description": "a plugin to change comment case",
-  "version": "0.0.1",
-  "repository": { 
-    "type": "git", 
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
     "url": "https://github.com/moecasts/vscode-ts-comment-case.git"
   },
   "author": "moecasts <moecasts.caster@gmail.com>",
@@ -20,12 +20,24 @@
   "contributes": {
     "commands": [
       {
-        "command": "vscode-ts-comment-case.commentCaseJSDoc",
-        "title": "Comment Case JSDoc"
+        "command": "vscode-ts-comment-case.tsccTransformJSDoc",
+        "title": "TSCC: transform JSDoc"
       },
       {
-        "command": "vscode-ts-comment-case.commentCaseSingle",
-        "title": "Comment Case Single"
+        "command": "vscode-ts-comment-case.tsccTransformSingle",
+        "title": "TSCC: transform single"
+      },
+      {
+        "command": "vscode-ts-comment-case.tsccMove",
+        "title": "TSCC: move trailing to leading"
+      },
+      {
+        "command": "vscode-ts-comment-case.tsccMoveAndTransformJSDoc",
+        "title": "TSCC: move and transform JSDoc"
+      },
+      {
+        "command": "vscode-ts-comment-case.tsccMoveAndTransformSingle",
+        "title": "TSCC: move and transform single"
       }
     ]
   },
@@ -59,6 +71,6 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "ts-comment-case": "^0.0.1"
+    "ts-comment-case": "^0.0.2"
   }
 }

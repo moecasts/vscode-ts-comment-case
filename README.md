@@ -1,8 +1,19 @@
-# vscode-ts-comment-case README
+# vscode-ts-comment-case
 
-A plugin to change js/ts comment style.
+A vscode plugin to manipulate `js/ts` comment.
 
-## Commands
+## Features
 
-- `Comment Case JSDoc`: change single line comments to JSDoc style
-- `Comment Case Single`: change multi line comments to single line style
+### Commands
+
+- `TSCC: transform JSDoc`: comment case as jsdoc all lines
+- `TSCC: transform single`: comment case as single line all lines
+- `TSCC: move trailing to leading`: move tailing comment to leading comment all lines
+- `TSCC: move and transform JSDoc`: move trailing comment and comment case as jsdoc all lines
+- `TSCC: move and transform single`: move trailing comment and comment case as single line all lines
+
+## Related
+
+- [ts-comment-case](https://github.com/moecasts/ts-comment-case)
+- [nvim-ts-comment-case](https://github.com/moecasts/nvim-ts-comment-case)
+- [vscode-ts-comment-case](https://github.com/moecasts/vscode-ts-comment-case)
