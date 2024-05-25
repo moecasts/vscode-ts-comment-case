@@ -2,7 +2,7 @@
   "name": "vscode-ts-comment-case",
   "displayName": "vscode-ts-comment-case",
   "description": "a plugin to change comment case",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/moecasts/vscode-ts-comment-case.git"
